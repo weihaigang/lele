@@ -3,16 +3,18 @@ import scrapy
 class DmozSpider(scrapy.Spider):
     name = "lelem"
     start_urls = [
-        "http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=295610",
-        'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=253457',
-        'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=252340',
-        'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=278143',
-        'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=284030',
-        'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=294477',
-        'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=290761',
-        'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=287272',
-        'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=288376',
-        'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=291357',
+        # "http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=295610",
+        # 'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=253457',
+        # 'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=252340',
+        # 'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=278143',
+        # 'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=284030',
+        # 'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=294477',
+        # 'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=290761',
+        # 'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=287272',
+        # 'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=288376',
+        # 'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=291357',
+
+        'http://www.leleketang.com/let3/knowledges.php?from=undefined&cid=249577'
     ]
 
 
